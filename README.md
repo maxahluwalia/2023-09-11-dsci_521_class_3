@@ -1,10 +1,10 @@
 # 2023-09-11-dsci_521_class_3
 dsci_521_class_3
 
-- `add FILENAME`: brings `FILENAME` to staging area
+- `add FILENAME`: brings `FILENAME` to the staging area
 - `commit` or `commit -m "MESSAGE`: commits everything with a message in the staging area, saves the file and checks if there are new changes
 - `push <WHERE> <WHAT>`: pushes the history/commits (uploads) `FILENAME` to the remote repository, using the commits from the specified branch
-- `pull <WHERE> <WHAT>`: pulls/updates the local repository with contents in the remote repository (where) using the inofrmation in the specified branch (what)
+- `pull <WHERE> <WHAT>`: pulls/updates the local repository with contents in the remote repository (where) using the information in the specified branch (what)
 
 `log`: shows the log
     - `log --online`: shows the log in condensed form
@@ -15,8 +15,10 @@ dsci_521_class_3
 - `git diff --staged`: shows you the difference 
 
 - `retore --staged <FILE>`: unstages <FILE> 
+- `revert <SHA1>`: undos the changes in the commit specified in `<SHA1>`. takes all the changes in a particular revert and will undo everything that happened in that location
 
 - `touch <FILE>`: creates a timestamp if the file exists, if not then it creates a new file with that name
+
 
 
 
@@ -26,3 +28,4 @@ dsci_521_class_3
 - download zip (downloads the files exactly as they are without any history)
 - clone (better since it has data on the history of the files)
 
+mistakes.. 
